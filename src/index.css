@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-heading-serif bg-background text-primary;
+    /* This makes Albert Sans the default for everything in the body */
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  /* This helps with momentum scrolling on mobile */
+  -webkit-overflow-scrolling: touch; 
+}
+
+body {
+  /* Prevents jittery scrollbar appearances */
+  overflow-y: scroll;
+  /* Improves rendering performance */
+  text-rendering: optimizeSpeed;
+}

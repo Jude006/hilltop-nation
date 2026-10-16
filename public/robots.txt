@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Disallow: /raim-admin/
+Disallow: /raim-gate/
+Disallow: /worker/dashboard/
+
+Sitemap: https://www.radiantnation.org/sitemap.xml
